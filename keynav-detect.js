@@ -1,5 +1,5 @@
 ;(function(){
-  var KEY_TAB   = 8;
+  var KEY_TAB   = 9;
   var KEY_ENTER = 13;
   var KEY_CTRL  = 17;
   var KEY_ESC   = 27;
@@ -20,12 +20,12 @@
       case KEY_UP:
       case KEY_RIGHT:
       case KEY_DOWN:
-        document.body.classList.add('keynav-mode');
+        document.documentElement.classList.add('keynav-mode');
     }
   }
 
   function keynavModeOff() {
-    document.body.classList.remove('keynav-mode');
+    document.documentElement.classList.remove('keynav-mode');
   }
   
   document.addEventListener('keydown', keynavModeOn);
