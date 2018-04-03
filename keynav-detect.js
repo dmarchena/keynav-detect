@@ -1,3 +1,5 @@
+/*! keynav-detect | MIT                         *
+ *  https://github.com/dmarchena/keynav-detect !*/
 ;(function(){
   var KEY_TAB   = 9;
   var KEY_ENTER = 13;
